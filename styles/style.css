@@ -1492,3 +1492,483 @@
         padding: 55px 20px;
     }
 }
+
+
+
+/* Highlights Page Styles */
+
+.highlights-page {
+    margin: 0;
+    background: #ffffff;
+    color: #142b50;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.highlights-page * {
+    box-sizing: border-box;
+}
+
+.highlights-page a {
+    text-decoration: none;
+}
+
+.highlights-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 28px;
+}
+
+/* Navigation */
+
+.highlights-header {
+    max-width: 1256px;
+    margin: auto;
+    padding: 22px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.highlights-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #142b50;
+    font-size: 21px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.highlights-brand strong,
+.highlights-footer-brand span {
+    color: #315de7;
+}
+
+.highlights-brand-icon {
+    background: #315de7;
+    color: white;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.highlights-nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.highlights-nav a {
+    color: #66758c;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.highlights-nav a:hover,
+.highlights-nav .highlights-active {
+    color: #315de7;
+}
+
+.highlights-join-btn,
+.highlights-primary-btn {
+    display: inline-block;
+    background: #315de7;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 23px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.highlights-join-btn:hover,
+.highlights-primary-btn:hover {
+    background: #244bca;
+    transform: translateY(-2px);
+}
+
+/* Hero */
+
+.highlights-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 105px 0 115px;
+    background: linear-gradient(120deg, #f8faff, #eaf1ff);
+}
+
+.highlights-label {
+    color: #315de7;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.highlights-hero h1 {
+    position: relative;
+    z-index: 1;
+    font-size: clamp(42px, 6vw, 76px);
+    letter-spacing: -3px;
+    line-height: 1.1;
+    margin: 25px 0;
+}
+
+.highlights-hero h1 span {
+    color: #315de7;
+}
+
+.highlights-hero p {
+    position: relative;
+    z-index: 1;
+    max-width: 580px;
+    font-size: 17px;
+    color: #687991;
+    line-height: 1.85;
+    margin-bottom: 30px;
+}
+
+.highlights-primary-btn {
+    position: relative;
+    z-index: 1;
+}
+
+.highlights-hero-decoration {
+    position: absolute;
+    right: 8%;
+    top: 15%;
+    color: #cbdafe;
+    font-size: 250px;
+    transform: rotate(-12deg);
+    pointer-events: none;
+}
+
+/* Introduction */
+
+.highlights-intro {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.highlights-intro h2 {
+    font-size: clamp(32px, 4vw, 47px);
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+}
+
+.highlights-intro > p {
+    max-width: 440px;
+    color: #728095;
+    line-height: 1.85;
+}
+
+/* Achievement Cards */
+
+.highlights-section {
+    padding-top: 25px;
+    padding-bottom: 105px;
+}
+
+.highlights-section-heading {
+    margin-bottom: 35px;
+}
+
+.highlights-section-heading h2 {
+    font-size: clamp(30px, 4vw, 45px);
+    letter-spacing: -1.5px;
+}
+
+.highlights-section-heading h2 span {
+    color: #315de7;
+}
+
+.highlights-section-heading p {
+    color: #728095;
+}
+
+.highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.highlights-card {
+    overflow: hidden;
+    border: 1px solid #e5eaf3;
+    border-radius: 18px;
+    background: white;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.highlights-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px #142b5015;
+}
+
+.highlights-card-art {
+    height: 180px;
+    padding: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.highlights-tech {
+    background: #e9efff;
+    color: #315de7;
+}
+
+.highlights-sports {
+    background: #e2f6ee;
+    color: #1c8e67;
+}
+
+.highlights-culture {
+    background: #fff0e4;
+    color: #bf7034;
+}
+
+.highlights-debate {
+    background: #f0eafb;
+    color: #7553af;
+}
+
+.highlights-category {
+    background: #ffffffaa;
+    padding: 9px 14px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.highlights-art-icon {
+    align-self: center;
+    padding-right: 30px;
+    font-size: 75px;
+}
+
+.highlights-card-content {
+    padding: 30px;
+}
+
+.highlights-card-number {
+    color: #315de7;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.highlights-card h3 {
+    font-size: 25px;
+    margin: 17px 0 12px;
+}
+
+.highlights-card p {
+    color: #728095;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.highlights-card-footer {
+    display: block;
+    margin-top: 25px;
+    padding-top: 18px;
+    border-top: 1px solid #e8edf5;
+    color: #315de7;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* Featured Section */
+
+.highlights-feature {
+    background: #f1f5ff;
+    padding: 90px 0;
+}
+
+.highlights-feature-inner {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    align-items: center;
+    gap: 65px;
+}
+
+.highlights-feature-symbol {
+    height: 300px;
+    display: grid;
+    place-items: center;
+    border-radius: 24px;
+    background: linear-gradient(140deg, #315de7, #173474);
+    color: white;
+    font-size: 150px;
+}
+
+.highlights-feature h2 {
+    font-size: clamp(33px, 4vw, 47px);
+    letter-spacing: -1.5px;
+}
+
+.highlights-feature p {
+    color: #728095;
+    line-height: 1.85;
+}
+
+.highlights-feature-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #315de7;
+    font-weight: 700;
+}
+
+/* Call To Action */
+
+.highlights-cta {
+    background: #142b50;
+    color: white;
+}
+
+.highlights-cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.highlights-cta h2 {
+    font-size: clamp(31px, 4vw, 45px);
+    letter-spacing: -1.5px;
+}
+
+.highlights-cta p {
+    color: #b9c9e2;
+}
+
+.highlights-cta .highlights-label {
+    color: #a9c5ff;
+}
+
+.highlights-cta-btn {
+    background: white;
+    color: #173474;
+    padding: 17px 25px;
+    border-radius: 10px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* Footer */
+
+.highlights-footer {
+    padding-top: 55px;
+}
+
+.highlights-footer-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.highlights-footer-brand {
+    color: #142b50;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.highlights-footer-inner p,
+.highlights-copyright {
+    color: #8290a4;
+    font-size: 13px;
+}
+
+.highlights-footer-inner nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.highlights-footer-inner nav a {
+    color: #66758c;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.highlights-copyright {
+    max-width: 1200px;
+    margin: 45px auto 0;
+    border-top: 1px solid #e8edf4;
+    padding: 20px 28px;
+}
+
+/* Responsive Highlights Page */
+
+@media (max-width: 768px) {
+    .highlights-header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .highlights-nav {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .highlights-hero {
+        padding: 70px 0;
+    }
+
+    .highlights-hero-decoration {
+        font-size: 130px;
+        opacity: 0.35;
+    }
+
+    .highlights-intro,
+    .highlights-cta-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .highlights-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .highlights-feature-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .highlights-feature-symbol {
+        height: 200px;
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 480px) {
+    .highlights-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .highlights-hero h1 {
+        font-size: 42px;
+        letter-spacing: -2px;
+    }
+
+    .highlights-card-content {
+        padding: 23px;
+    }
+
+    .highlights-art-icon {
+        padding-right: 5px;
+    }
+
+    .highlights-cta-inner {
+        align-items: flex-start;
+    }
+}
